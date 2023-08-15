@@ -8,10 +8,10 @@
 <body>
     <script>
         var num = +prompt("Insert a number: ");
-        if ((num % 2) == 0 && num != 0){
-            document.write("Even number.");
-        } else if ((num % 2) == 1){
-            document.write("Odd number.")
+        if (num > 0){
+            document.write("Positive number.");
+        } else if (num < 0){
+            document.write("Negative number.")
         } else if (num == 0){
             document.write("0.");
         }
